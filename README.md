@@ -222,6 +222,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Credits
 
-- **Developer:** RAHUL PR ([@rahulpr2000](https://github.com/rahulpr2000))
+- **Developer:** RAHUL PR ([@rahulpr2090](https://github.com/rahulpr2090))
 - **Organization:** [Marrty LLC](https://github.com/marrty)
 - **Institution:** Dept. of Computer Engineering, HGPC
