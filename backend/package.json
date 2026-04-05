@@ -1,0 +1,30 @@
+{
+  "name": "marrty-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.550.0",
+    "@aws-sdk/client-dynamodb": "^3.550.0",
+    "@aws-sdk/client-location": "^3.550.0",
+    "@aws-sdk/client-rekognition": "^3.550.0",
+    "@aws-sdk/client-s3": "^3.550.0",
+    "@aws-sdk/client-secrets-manager": "^3.550.0",
+    "@aws-sdk/lib-dynamodb": "^3.550.0",
+    "@aws-sdk/s3-request-presigner": "^3.550.0",
+    "sharp": "^0.33.3",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "@types/node": "^25.5.2",
+    "@types/uuid": "^9.0.8",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.3"
+  }
+}
